@@ -20,10 +20,10 @@ function markerSize(magnitude) {
 // Set logic to determine marker color by depth
 function markerColor(depth) {
     if (depth < 10) return "lime";
-    else if (depth < 25) return "greenyellow";
+    else if (depth < 30) return "greenyellow";
     else if (depth < 50) return "yellow";
-    else if (depth < 75) return "orange";
-    else if (depth < 100) return "orangered";
+    else if (depth < 70) return "orange";
+    else if (depth < 90) return "orangered";
     else return "red";
 }
 
@@ -53,7 +53,7 @@ d3.json(url).then(function(data) {
 var legend = L.control({position: "bottomright"});
 legend.onAdd = function() {
     var div = L.DomUtil.create("div", "legend");
-    depth_scale = [-10, 10, 25, 50, 75, 100];
+    depth_scale = [-10, 10, 30, 50, 70, 90];
     div.innerHTML = "<h3>Depth</h3>";
 
     for (var i=0; i < depth_scale.length; i++) {
