@@ -1,5 +1,5 @@
 # Deployment
-Link to live site: https://alihaahmed.github.io/leaflet-challenge/
+Link to live site: https://alihaahmed.github.io/Global-Seismic-Hazard-Map/
 
 # Background 
 The United States Geological Survey, or USGS for short, is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment, and the impacts of climate and land-use change. Their scientists develop new methods and tools to supply timely, relevant, and useful information about the Earth and its processes. This project leverages USGS data to develop a real-time map of all seismic hazard, activity and impact around the world in the past seven days.
